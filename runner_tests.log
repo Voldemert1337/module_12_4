@@ -1,0 +1,10 @@
+2024-09-10 18:03:03,332 | WARNING | Неверный тип данных для имени объекта Runner
+Traceback (most recent call last):
+  File "D:\Project\pythonProject\Urban\module_12\tests_12_4.py", line 24, in test_run
+    raise TypeError(f'Имя может быть только строковым значением, передано  = {type(some_runner.name).__name__}')
+TypeError: Имя может быть только строковым значением, передано  = int
+2024-09-10 18:03:03,332 | WARNING | Неверная скорость для Макс
+Traceback (most recent call last):
+  File "D:\Project\pythonProject\Urban\module_12\tests_12_4.py", line 14, in test_walk
+    raise ValueError(f'Скорость может быть только положительным значением, текущее значение = {some_runner.speed}')
+ValueError: Скорость может быть только положительным значением, текущее значение = -1
